@@ -187,7 +187,6 @@ body {
   margin-bottom: 50px;
   list-style: none;
   font-style: normal;
-
 }
 
 .button-logo .item:not(:last-child) {
@@ -195,23 +194,23 @@ body {
 }
 
 .button-item {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
-color: #212121;
-background: #F5F4FA;
-border-radius: 4px;
-border: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: 0px;
 }
 
-.button-item:hover, .button-item:focus {
+.button-item:hover,
+.button-item:focus {
   color: var(--main-white-color);
   background-color: var(--accent-color);
 }
-
 
 /* body */
 
@@ -286,6 +285,10 @@ border: 0px;
 
 .item-list:not(:last-child) {
   margin-right: 30px;
+}
+.about-pre-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* whoweare */
