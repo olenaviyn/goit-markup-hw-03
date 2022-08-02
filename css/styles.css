@@ -67,6 +67,12 @@ body {
 
 /* header */
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
+}
+
 .nav-main {
   display: flex;
 }
@@ -159,7 +165,6 @@ body {
 
 .address .foas {
   display: inline-block;
-  margin-top: 9px;
 }
 
 /* -------портфоліо-------- */
@@ -193,6 +198,7 @@ body {
   margin-right: 8px;
 }
 
+
 .button-item {
   font-family: "Roboto";
   font-style: normal;
@@ -204,6 +210,10 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
   border: 0px;
+}
+
+.button-item {
+  padding: 6px 22px;
 }
 
 .button-item:hover,
@@ -218,8 +228,11 @@ body {
 
 .title-button {
   margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
   color: var(--main-white-color);
+  max-width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -264,13 +277,13 @@ body {
 }
 .about {
   padding-top: 94px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .about-pre-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.33px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--dark-main-color);
@@ -309,9 +322,14 @@ body {
   display: flex;
 }
 
+.whoweare {
+  padding-bottom: 94px;
+}
+
+
 .whoweare .whoweare-title {
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .whoweare .whoweare-list {
   display: flex;
@@ -329,7 +347,7 @@ body {
 
 .team .whoweare-title {
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .team-photo {
@@ -342,6 +360,11 @@ body {
   background-color: var(--background-primary-gray);
 }
 
+.teamdiv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -349,6 +372,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-main-color);
+  margin-bottom: 10px;
 }
 
 .team-position {
@@ -389,6 +413,13 @@ body {
   gap: 30px;
   flex-grow: 1 1 1;
   /* width: calc(100% - 60px / 3); */
+}
+
+.markdiv {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .studio-logofoot {
