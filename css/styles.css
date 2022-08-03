@@ -75,6 +75,7 @@ body {
 
 .nav-main {
   display: flex;
+  align-items: center;
 }
 
 .head-contacts {
@@ -165,6 +166,7 @@ body {
 
 .address .foas {
   display: inline-block;
+  margin-bottom: 9px;
 }
 
 /* -------портфоліо-------- */
@@ -272,9 +274,6 @@ body {
 }
 /* about */
 
-.about > .container > .about-list {
-  display: flex;
-}
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -296,9 +295,20 @@ body {
   color: var(--text-color);
 }
 
+.about-list {
+  display: flex;
+  gap: 30px;
+}
+
+.about-item {
+  width: calc( (100% - 30px) / 4);
+}
+
 .item-list:not(:last-child) {
   margin-right: 30px;
 }
+
+
 .about-pre-title {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -425,6 +435,7 @@ body {
 .studio-logofoot {
   color: var(--main-white-color);
 }
+
 
 .map-google {
   font-style: normal;
